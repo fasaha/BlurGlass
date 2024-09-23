@@ -1,0 +1,22 @@
+# UnityProject
+Library
+Temp
+obj
+Logs
+UserSettings/
+
+# vistual studio
+*.csproj
+*.sln
+*.vs
+*..vsconfig
+
+# others
+Thumbs.db
+Thumbs.db.meta
+.DS_Store
+
+.idea
+.vsconfig
+
+
