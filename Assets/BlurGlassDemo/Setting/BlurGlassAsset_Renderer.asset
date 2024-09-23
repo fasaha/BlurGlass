@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 782b2d0755fb76f4ca5539799ed46e77, type: 3}
-  m_Name: GlassBlurRenderPassFeature
+  m_Name: BeforeBlurGlass
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
