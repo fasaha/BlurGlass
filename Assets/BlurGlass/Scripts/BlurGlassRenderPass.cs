@@ -4,7 +4,7 @@ using UnityEngine.Rendering.Universal;
 
 namespace BlurGlass
 {
-    public class GlassBlurRenderPass : ScriptableRenderPass
+    public class BlurGlassRenderPass : ScriptableRenderPass
     {
         private Material _blurMat;
         private RenderTexture _blurRt;
@@ -17,7 +17,7 @@ namespace BlurGlass
         private int _downSample;
         private int _offsetsID;
 
-        public GlassBlurRenderPass(GlassBlurRenderPassFeature.Settings param)
+        public BlurGlassRenderPass(BlurGlassRenderPassFeature.Settings param)
         {
             renderPassEvent = param.renderEvent;
             _blurMat = param.blurMat;

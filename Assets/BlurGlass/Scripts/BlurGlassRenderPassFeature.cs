@@ -2,7 +2,7 @@
 using UnityEngine.Rendering.Universal;
 namespace BlurGlass
 {
-    public class GlassBlurRenderPassFeature : ScriptableRendererFeature
+    public class BlurGlassRenderPassFeature : ScriptableRendererFeature
     {
         [System.Serializable]
         public class Settings
@@ -17,11 +17,11 @@ namespace BlurGlass
             public float blurSize = 3f;
         }
 
-        GlassBlurRenderPass m_ScriptablePass;
+        BlurGlassRenderPass m_ScriptablePass;
         public Settings settings;
         public override void Create()
         {
-            m_ScriptablePass = new GlassBlurRenderPass(settings);
+            m_ScriptablePass = new BlurGlassRenderPass(settings);
             m_ScriptablePass.renderPassEvent = settings.renderEvent;
         }
 
