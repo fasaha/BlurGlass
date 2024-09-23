@@ -1742,7 +1742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1431642237}
   m_Layer: 0
-  m_Name: SceneObject
+  m_Name: BeforeBlurGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1948,8 +1948,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1583777670}
-  m_Layer: 0
-  m_Name: AfterBlurGlasses
+  m_Layer: 7
+  m_Name: AfterBlurGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2246,7 +2246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1940407489}
   m_Layer: 6
-  m_Name: BlurGlasses
+  m_Name: BlurGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
